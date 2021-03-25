@@ -1,0 +1,24 @@
+.footer{
+    position: fixed;
+    /* bottom: 0; */
+    bottom:0vh;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: #3F51B5;
+    
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-contact{
+    text-align: center;
+   
+}
+.footer-icon{
+    max-width: 10%;
+    max-height: 100%;
+}
+.footer-list{
+    list-style: none;
+}

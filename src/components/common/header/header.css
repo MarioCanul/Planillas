@@ -1,0 +1,25 @@
+.navBar{
+    max-width: 100%;
+    max-height: 100%;
+    
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows:100%;
+}
+.navBar-icon{
+    grid-row: 1/-1;
+    grid-column: 1/2;
+}
+.navBar-text{
+    align-self: center;
+    text-align: center;
+    font-size: 18px;
+    grid-row: 1/-1;
+    grid-column: 2/3;
+}
+.navBar-buttons{
+    grid-row: 1/-1;
+    grid-column: 3/4;
+    flex-direction: row-reverse;
+
+}
